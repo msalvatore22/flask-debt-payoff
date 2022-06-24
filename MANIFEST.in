@@ -1,0 +1,4 @@
+include debt_payoff/schema.sql
+graft debt_payoff/static
+graft debt_payoff/templates
+global-exclude *.pyc
